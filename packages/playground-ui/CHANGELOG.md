@@ -1,5 +1,19 @@
 # @mastra/playground-ui
 
+## 22.0.0-alpha.2
+
+### Minor Changes
+
+- Added trajectory support to the playground UI. Expected trajectory is now visible and editable across all dataset views — item list, item detail panels, item dialogs, and standalone item pages. Trajectory scorers are visually distinguished in scorer lists and experiment results. Saving a trace as a dataset item auto-extracts the trajectory. ([#14902](https://github.com/mastra-ai/mastra/pull/14902))
+
+### Patch Changes
+
+- Updated dependencies [[`80c5668`](https://github.com/mastra-ai/mastra/commit/80c5668e365470d3a96d3e953868fd7a643ff67c), [`06b928d`](https://github.com/mastra-ai/mastra/commit/06b928dfc2f5630d023467476cc5919dfa858d0a)]:
+  - @mastra/core@1.22.0-alpha.2
+  - @mastra/client-js@1.13.0-alpha.2
+  - @mastra/react@0.2.22-alpha.2
+  - @mastra/ai-sdk@1.3.0
+
 ## 21.0.1-alpha.1
 
 ### Patch Changes

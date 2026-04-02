@@ -1,5 +1,22 @@
 # @mastra/server
 
+## 1.22.0-alpha.2
+
+### Minor Changes
+
+- Added expectedTrajectory support to dataset items across all storage backends and API layer. Dataset items can now store trajectory expectations that define expected agent execution steps, ordering, and constraints for trajectory-based evaluation scoring. ([#14902](https://github.com/mastra-ai/mastra/pull/14902))
+
+### Patch Changes
+
+- Fixed Responses and Conversations to resolve stored data through the selected agent's memory store instead of assuming Mastra root memory storage. ([#14977](https://github.com/mastra-ai/mastra/pull/14977))
+
+  Responses and conversation retrieval, deletion, and continuation now follow the agent's configured memory storage, while still using Mastra root storage when that agent memory inherits it.
+
+- Fixed memory endpoints (list threads, get thread, list messages, delete messages, memory status) returning 404 when agentId refers to a stored agent not resolvable via getAgentById(). Endpoints now fall back to storage-based access, matching the behavior when agentId is omitted. Fixes #14765. ([#14784](https://github.com/mastra-ai/mastra/pull/14784))
+
+- Updated dependencies [[`80c5668`](https://github.com/mastra-ai/mastra/commit/80c5668e365470d3a96d3e953868fd7a643ff67c), [`06b928d`](https://github.com/mastra-ai/mastra/commit/06b928dfc2f5630d023467476cc5919dfa858d0a)]:
+  - @mastra/core@1.22.0-alpha.2
+
 ## 1.22.0-alpha.1
 
 ### Patch Changes

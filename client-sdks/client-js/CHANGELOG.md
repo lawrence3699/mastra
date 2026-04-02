@@ -1,5 +1,16 @@
 # @mastra/client-js
 
+## 1.13.0-alpha.2
+
+### Minor Changes
+
+- Added expectedTrajectory support to dataset items across all storage backends and API layer. Dataset items can now store trajectory expectations that define expected agent execution steps, ordering, and constraints for trajectory-based evaluation scoring. ([#14902](https://github.com/mastra-ai/mastra/pull/14902))
+
+### Patch Changes
+
+- Updated dependencies [[`80c5668`](https://github.com/mastra-ai/mastra/commit/80c5668e365470d3a96d3e953868fd7a643ff67c), [`06b928d`](https://github.com/mastra-ai/mastra/commit/06b928dfc2f5630d023467476cc5919dfa858d0a)]:
+  - @mastra/core@1.22.0-alpha.2
+
 ## 1.12.1-alpha.1
 
 ### Patch Changes

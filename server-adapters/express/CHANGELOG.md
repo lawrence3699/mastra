@@ -1,5 +1,13 @@
 # @mastra/express
 
+## 1.3.5-alpha.2
+
+### Patch Changes
+
+- Updated dependencies [[`80c5668`](https://github.com/mastra-ai/mastra/commit/80c5668e365470d3a96d3e953868fd7a643ff67c), [`f03f37a`](https://github.com/mastra-ai/mastra/commit/f03f37a5e5880f2bb2700514405e311f840c53d2), [`eecd0eb`](https://github.com/mastra-ai/mastra/commit/eecd0ebde7b54bbfe32e7ebbf5fe2c59b29dd685), [`06b928d`](https://github.com/mastra-ai/mastra/commit/06b928dfc2f5630d023467476cc5919dfa858d0a)]:
+  - @mastra/core@1.22.0-alpha.2
+  - @mastra/server@1.22.0-alpha.2
+
 ## 1.3.5-alpha.1
 
 ### Patch Changes
